@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+    
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.flex{
+    display: flex;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    
+}
+.f-space-around{
+    justify-content: space-around;
+}
+.f-space-between{
+    justify-content: space-between;
+}
+nav{
+    background-color: blue;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.fa-solid{
+    color: white;
+}
+.card-container{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10%;
+    
+    
+}
+.card{
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+h2{
+    margin-top: 10%;
+    width: 90%;
+    color: blue;
+}
+p{
+    margin-top: 5%;
+    width: 80%;
+    line-height: 2em;
+}
+.download-btn{
+    color: white;
+    border-style: none;
+    border-radius: 50px;
+    width: 80%;
+    height: calc(100vw/10);
+    background-color: blue;
+    font-size: 1.5em;
+    margin-top: 5%;
+    
+}
+.img-phone{
+    width: 100%;
+    margin-top: 5%;
+}
+.fa-file-code{
+    font-size: 5em;
+    color: blue;
+    margin-top: 10%;   
+}
+.fa-attributes{
+    font-size: 5em;
+    color: blue;
+    margin-top: 10%; 
+} 
+.p-card{
+    margin-bottom: 10%;
+}
