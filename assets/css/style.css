@@ -4,7 +4,7 @@
     box-sizing: border-box;
     @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap');
     font-family: 'Roboto', sans-serif;
-    
+
 }
 .clearfix{
     content: "";
@@ -17,12 +17,12 @@
 .flexrow{
     display: flex;
     flex-direction: row;
-    
+
 }
 .flexcol{
     display: flex;
     flex-direction: column;
-    
+
 }
 .f-space-around{
     justify-content: space-around;
@@ -36,6 +36,8 @@ nav{
     padding-right: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
+    align-items: center;
+    
 }
 .fa-solid{
     color: white;
@@ -44,41 +46,45 @@ nav{
     width: 90%;
     margin: auto;
     margin-bottom: 10%;
-    
-    
+
+
 }
 .card{
     background-color: aquamarine;
     text-align: center;
     border-radius: 20px;
     align-items: center;
-    margin-top: 10%;
-    
+    margin-top: 2%;
+
 }
 h2{
-    margin-top: 10%;
+    padding-top: 10%;
     width: 90%;
     color: blue;
+    margin: auto;
 }
 p{
-    margin-top: 5%;
+    padding-top: 10%;
     width: 80%;
     line-height: 2em;
+    margin: auto;
+    
 }
 .download-btn{
     color: white;
     border-style: none;
     border-radius: 50px;
     width: 80%;
-    height: calc(100vw/10);
+    
     background-color: blue;
     font-size: 1.5em;
     margin-top: 5%;
-    
+
 }
 .img-phone{
     width: 100%;
-    margin-top: 5%;
+    padding-top: 10%;
+    display: block;
 }
 .fa-file-code{
     font-size: 5em;
@@ -90,6 +96,108 @@ p{
     color: blue;
     margin-top: 10%; 
 } 
-.p-card{
+.p-card {
     margin-bottom: 10%;
+}
+.btn-container > button{
+    display: none;
+}
+@media screen and (min-width:426px) 
+{
+    .first-row-container{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+    }
+    .img-container{
+        width: 50%;
+    }
+    .card1{
+        width: 70%;
+        text-align: left;
+    }
+    .info-card > p{
+        margin-left: 5%;  
+    }
+    .info-card > .download-btn{
+        margin-left: 5%; 
+        width: 45%;
+        font-size: 1.2em;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+   
+    .card2{
+        width: 27%;
+    }
+    .second-row-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card3{
+        width: 32%;
+    }
+    .card4{
+        width: 32%;
+    }
+
+.card5{
+    width: 32%;
+}
+}
+@media screen and (min-width:768px)
+{
+    main{
+        width: 80%;
+        margin: 0 auto;
+    }
+    div > .fa-bars{
+    display: none;
+  }
+  .btn-container{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .btn-container > button{
+    display: inline-block;
+    margin-left: 5vw;
+ }
+  .btn-nav{
+    border-style: none;
+    background-color: blue;
+    color: white;
+ }
+ .btn-nav-start{
+    border-style: none;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+ }
+  nav > div > button{
+    display: inline-block;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.info-card{
+    width: 50%;
+}
+.img-container{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.img-phone{
+    width: 75%;
+    
+}
+.info-card > h2{
+    padding-top: 0%;
+}
 }
