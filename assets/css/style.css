@@ -65,9 +65,7 @@ h2{
 }
 p{
     padding-top: 10%;
-    width: 80%;
-    line-height: 2em;
-    margin: auto;
+    
     
 }
 .download-btn{
@@ -102,7 +100,194 @@ p{
 .btn-container > button{
     display: none;
 }
-@media screen and (min-width:426px) 
+.section-planning{
+    background-color: rgb(149,147,230);
+    padding-bottom: 50px;
+}
+.container-img-planning1{
+    width: 90%;
+    margin: 0 auto; 
+}
+.img-planning1{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.container-img-planning1 > h2{
+    color: white;
+    font-size: 2em;
+    margin: 0%;
+}
+.container-img-planning1 > p{
+    color: white;
+    font-size: 0.5em;
+    margin: 0%;
+}
+.container-img-planning2{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%; 
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.img-planning2{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.container-img-planning2 > h3{
+    
+    font-size: 0.8em;
+}
+.container-img-planning2 > p{
+    padding-top: 2%;
+    font-size: 0.5em;
+}
+.container-img-planning2 > .fa-solid{
+    color: black;
+    background-color: rgb(149,147,230);
+    padding: 8px;
+    border-radius: 50%;
+
+}
+.section-testimonials{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.section-testimonials > h3{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.testimonial-card{
+    margin: auto;
+    
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(149,147,230);
+    border-radius: 50px;
+    color: white;
+}
+.testimonial-img{
+    margin: auto;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+.testimonial-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.info-testimonial{
+    font-size: 1.2rem;
+}
+.info-testimonial > h3{
+    margin: 40px;
+}
+ul{
+    list-style: none;
+}
+.sec-benefits{
+    background-color:rgb(149,147,230);
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.sec-benefits > h2{
+    margin: auto;
+    text-align: center;
+}
+.card-benefits{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+.info-benefits{
+    width: 90%;
+    margin: 0 auto;
+}
+.n-ben{
+    font-size: 3rem;
+    color: rgb(149,147,230);
+}
+.title-ben{
+    font-size: 1.5rem;
+    color: rgb(149,147,230);
+    margin-top: 20px;
+}
+.p-ben{
+    line-height: 2rem;
+    padding-top: 20px;
+}
+.btn-ben{
+    width: 200px;
+    background-color: rgb(149,147,230);
+    color: white;
+    font-size: 1.25rem;
+    border-style: none;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.title-sec-benefits{
+    width: 80%;
+    margin: auto;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.title-sec-benefits > h2{
+    color: white;
+}
+.sec-about-us{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.title-sec-about-us{
+    color: rgb(149,147,230);
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.p-sec-about-us{
+    line-height: 2.5rem;
+}
+.img-about{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.info-about{
+    color: rgb(149,147,230);
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+.btn-linkedin{
+    width: 180px;
+    background-color: rgb(149,147,230);
+    color: white;
+    font-size: 1rem;
+    border-style: none;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/* MEDIA QUERY */
+@media screen and (min-width:768px) 
 {
     .first-row-container{
         justify-content: space-between;
@@ -115,9 +300,7 @@ p{
    }
     .card1{
         width: 70%;
-        text-align: left;
-        display: flex;
-        flex-direction: row;
+        text-align: left;  
     }
     .info-card > p{
         margin-left: 5%;  
@@ -129,7 +312,9 @@ p{
         padding-top: 2%;
         padding-bottom: 2%;
     }
-   
+   .img-phone{
+    width: 250px;
+   }
     .card2{
         width: 27%;
     }
@@ -147,10 +332,51 @@ p{
 .card5{
     width: 32%;
 }
+.testimonial-card{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
 }
-@media screen and (min-width:768px)
+.info-testimonial{
+    width: 65%;
+}
+.info-testimonial > p{
+    line-height: 1em;
+}
+
+.testimonial-img > img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.container-ben{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.card-benefits{
+    width: 46%;
+}
+.sec-about-us{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+.about-us{
+    width: 48%;
+}
+.container-tizio{
+    width: 40%;
+}
+}
+@media screen and (min-width:1200px)
 {
     main{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .section1{
         width: 80%;
         margin: 0 auto;
     }
@@ -160,7 +386,6 @@ p{
   .btn-container{
     display: flex;
     flex-direction: row;
-    
   }
   .btn-container > button{
     display: inline-block;
@@ -182,9 +407,13 @@ p{
     display: inline-block;
 }
 .card1{
+    position: relative;
     display: flex;
     flex-direction: row;
-    position: relative;
+    width: 66%;
+}
+.card2{
+    width: 32%;
 }
 .info-card{
     width: 50%;
@@ -194,13 +423,74 @@ p{
     position: absolute;
     bottom: 0;
     right: 0;
-    
 }
 .img-phone{
-    width: 75%;
-    
+   min-width: 200px;
+   
 }
 .info-card > h2{
     padding-top: 0%;
+}
+.section-planning{
+    width: 100%;  
+    display: flex;
+      
+}
+.container-planning{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 80px;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.container-img-planning1{
+    width: 50%; 
+    margin: 0;
+}
+.container-img-planning1 > p{
+      font-size: 1em;
+  }
+.container-img-planning2{
+    width: 50%; 
+    margin: 0;
+    align-self: end; 
+  }
+  .container-img-planning2 > h3{
+    font-size: 1.2rem;
+}
+  .container-img-planning2 > p{
+    font-size: 1rem;
+}
+.testimonial-card{
+    flex-direction: row;
+    text-align: left;
+}
+.testimonial-img{
+    width: 200px;
+    height: 200px;
+}
+.testimonial-img > img{
+    width: 200px;
+    height: 200px;
+}
+.info-testimonial > p{
+    width: 90%;
+}
+.container-ben{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.card-benefits{
+    width: 32%;
+}
+.about-us{
+    width: 60%;
+}
+.container-tizio{
+    width: 20%;
 }
 }
